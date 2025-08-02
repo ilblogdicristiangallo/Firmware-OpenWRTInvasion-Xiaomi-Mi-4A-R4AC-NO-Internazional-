@@ -7,3 +7,9 @@ The **OpenWRTInvasion firmware for Xiaomi Mi 4A R4AC (No International)** is a c
 
 **Installation:**
 https://github.com/acecilia/OpenWRTInvasion.git
+
+**
+cd /tmp
+wget http://github.com/ilblogdicristiangallo/Firmware-OpenWRTInvasion-Xiaomi-Mi-4A-R4AC-NO-Internazional-/blob/main/openwrt-23.05.5-ramips-mt76x8-xiaomi_mi-router-4a-100m-squashfs-sysupgrade.bin # Put here the URL you want to use to download the firmware
+./busybox sha256sum openwrt-23.05.5-ramips-mt76x8-xiaomi_mi-router-4a-100m-squashfs-sysupgrade.bin # Verify the firmware checksum before flashing, very important to avoid bricking your device!
+mtd -e OS1 -r write openwrt-23.05.5-ramips-mt76x8-xiaomi_mi-router-4a-100m-squashfs-sysupgrade.bin OS1 # Install OpenWrt
