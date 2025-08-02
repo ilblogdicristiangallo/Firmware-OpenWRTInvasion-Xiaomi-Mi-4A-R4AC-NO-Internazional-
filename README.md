@@ -1,5 +1,5 @@
 # Firmware-OpenWRTInvasion-Xiaomi-Mi-4A-R4AC-NO-Internazional-
-The OpenWRTInvasion firmware for Xiaomi Mi 4A R4AC (No International) is based on OpenWRT 23.05.05 and is needed because the official OpenWRTInvasion GitHub repository lacks firmware for this model. It ensures compatibility, optimization, and the use of the latest OpenWRT features.     Chiedi a ChatGPT
+The OpenWRTInvasion firmware for Xiaomi Mi 4A R4AC (No International) is based on OpenWRT 23.05.05 and is needed because the official OpenWRTInvasion GitHub repository lacks firmware for this model. It ensures compatibility, optimization, and the use of the latest OpenWRT features.
 
 **Description:**
 
@@ -8,7 +8,7 @@ The **OpenWRTInvasion firmware for Xiaomi Mi 4A R4AC (No International)** is a c
 **Installation:**
 https://github.com/acecilia/OpenWRTInvasion.git
 
-**
+
 cd /tmp
 wget http://github.com/ilblogdicristiangallo/Firmware-OpenWRTInvasion-Xiaomi-Mi-4A-R4AC-NO-Internazional-/blob/main/openwrt-23.05.5-ramips-mt76x8-xiaomi_mi-router-4a-100m-squashfs-sysupgrade.bin # Put here the URL you want to use to download the firmware
 ./busybox sha256sum openwrt-23.05.5-ramips-mt76x8-xiaomi_mi-router-4a-100m-squashfs-sysupgrade.bin # Verify the firmware checksum before flashing, very important to avoid bricking your device!
